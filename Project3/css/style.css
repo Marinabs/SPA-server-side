@@ -1,0 +1,173 @@
+
+@charset "UTF-8";
+
+@media screen and (max-width:640px){
+	#conteneur{
+		color:black;
+		margin: 0 auto 0 auto;
+	}
+}
+
+@media screen and (min-width:640px){
+	#conteneur{
+		color:black;
+		margin: 0 auto 0 auto;
+	}
+}
+
+
+
+/*choix de langage pour la page*/
+html{
+	font-family: "Verdana", sans-serif;
+}
+
+/*style pour body */
+
+body{
+	margin:0;
+	padding:0;
+	}
+/*definir les parametres de conteneur div */	
+	#conteneur{
+	width: 100%;
+	/* min-width:840px; */
+	margin:0 auto;
+	/* box-shadow: 0 0 10px rgba(0,0,0,0.5); */
+	}
+	
+	/* HEADER */
+	header { 
+	height: 270px;
+    background-image: url("../image/banner1.png");
+	margin:0;
+	padding:0;
+	}
+	
+/*style de h3 sur image et les positionner */	
+	header>h3{
+	color: #fff;
+	position: relative;
+	top:50px;
+	left: 20px;
+	margin-top: 0;
+	}	
+	
+/*style de bodytext ou va loader le text */
+	#bodytext{
+	background-color: white;
+	width: 100%;
+	min-height: 500px;
+	margin: 0;	
+	}
+
+/*defenir le style de barre de navigation */	
+	
+	#menu{
+	position: absolute;
+	margin: -100px 25px 0 25px;
+	background-color:white;
+	border-radius: 10px;
+	border: solid 1px #ccc;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px; 
+	padding: 10px;
+	}
+	
+	#menu h3{
+		color: #8600b3;
+		text-align: center;
+		height:50px;
+		padding-top:10px;
+	}
+	
+	nav{
+	display: flex; 
+	width:280px;
+ 	margin:0;
+	}
+	
+	ul{
+	list-style-type:none;
+	padding-left:0;
+	}
+	
+	li h4 {
+    display: block;
+    color: gray;
+    padding: 8px 5px;
+	margin:0;
+    text-decoration: none;
+	}
+	
+	li{
+	border-bottom: 1px solid gray;
+	}
+	
+	li a{
+    display: block;
+    color: gray;
+    padding: 4px 10px;
+    text-decoration: none;
+	}
+		
+   .nav{
+	width:250px;
+	}
+		
+	.nav a:hover{
+	color: white;
+	background-color: #555;
+    }
+
+	#contenue{
+	margin-left:20px;	
+	}
+	
+	#menu form{
+	margin-left: 13%;	
+	}
+	
+	.search{
+	width: 150px;
+	height: 28px;
+	border-radius: 5px;
+	border: solid 1px #ccc;
+	padding: 3px;
+	color:gray;
+	}
+	
+	.button{
+	vertical-align:middle;
+	}
+	
+/* Les styles de section contenu */
+	#contenu{
+	padding: 20px 20px 20px 340px;
+	}
+	
+	#contenu h4{
+		color: gray;
+		padding-left:25px;
+	}
+	
+	#contenu h3{
+		color: #2952a3;
+		padding-left:5px;
+	}
+
+	
+	/*Les style contenu de la page */
+
+		
+/* 	FOOTER */
+	footer { 
+		padding: 2px;	
+		text-align: center;
+		color: white;
+		background-color: #000;
+		text-transform: uppercase;
+	}
+	
+
+	

@@ -1,0 +1,48 @@
+  <!DOCTYPE html>
+  <html lang="fr">
+  <head>
+		<title>Projet 3 Site Web monopage</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+		<link rel="stylesheet" type="text/css" href="css/style.css" media="all" />
+		<script type="text/javascript" src="js/JS_xml.js"></script>
+			
+  </head>	
+	<body id="conteneur" onload="loadJSON()"> <!--  loadDoc1(); -->
+		<header>
+			<h3>Format d’échange de données JSON</h3>
+		</header>
+	<div id="bodytext">	
+		
+	<section id="menu">
+		<h3>Projet 3</h3>
+				
+		<nav id="nav">	
+		  <ul>
+			<li class="nav"><h4><i>Menu</i></h4></li>
+			<li class="nav"><a href="javascript:void(0)" onclick="loadDoc1()">Article 1</a></li>
+			<li class="nav"><a href="javascript:void(0)" onclick="loadDoc2()">Article 2</a></li>
+		
+		  </ul>	
+		</nav>
+		  <aside>
+		  <h4><i>Météo</i></h4>
+          <div id="contenue"> </div>
+		  <br><br>
+		  
+			<form method="post" action="#" id="search_form">
+				<input type="search" value="Rechercher..." name="text_search" class="search"/>
+				<input type="image" name="search" src="image/loupe.png" class="button">
+			</form>	
+		</aside>  
+	</section>
+
+		<div id="contenu">
+		</div>		
+	</div>
+	  <footer>
+		  copyright Babcinschi Marina - tous droits réservés	
+		  <p>Nous Contacter!</p>
+	  </footer>	
+	</body>
+</html>
